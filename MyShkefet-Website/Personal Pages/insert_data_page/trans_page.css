@@ -1,0 +1,44 @@
+body{
+    background-color:aliceblue;
+}
+ul {
+    position: fixed;
+    top: 0;
+    width: 100% ;
+    list-style-type: none;
+    margin:  0;
+    padding: 0;
+}
+
+li {
+    float: right;
+    
+}
+/* paragraph style for each link*/
+li a {
+    display: block;
+    color: white;
+    text-align:center;
+    padding: 10px 16px;
+    text-decoration: none;
+    background-color: DarkTurquoise ;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+.avatar {
+    width: 15%;
+    border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+

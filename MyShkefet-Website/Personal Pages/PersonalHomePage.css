@@ -1,0 +1,63 @@
+/* Start of nav!!!*/
+ul {
+    position: fixed;
+    top: 0;
+    width: 100% ;
+    list-style-type: none;
+    margin:  0;
+    padding: 0;
+}
+
+li {
+    float: right;
+    
+}
+/* paragraph style for each link*/
+li a {
+    display: block;
+    color: white;
+    text-align:center;
+    padding: 10px 16px;
+    text-decoration: none;
+    background-color: DarkTurquoise ;
+}
+/* END OF NAV BAR*/
+h1 {
+    position: absolute;
+    font-size: 500%;
+    color: white;
+    text-decoration: none;
+    top: 35%;
+    left: 50%;
+    margin-left: -210;
+    display: block;
+    text-align: center;
+    background-color: blue;
+}
+
+p{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    position: absolute;
+    color: blue;
+    top: 55%;
+    left: 50% ;
+    margin-left: -236;
+    display: block;
+    text-align: center;
+    
+}
+/*center avatar*/
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+.avatar {
+    width: 25%;
+    border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
