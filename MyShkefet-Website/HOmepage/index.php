@@ -1,4 +1,7 @@
-
+<?php
+session_start();
+function homepage(){
+print('
 <DOCTYPE html> 
 <html>
     <head>
@@ -21,6 +24,11 @@
     <h1>
         My-Shkefet
     </h1>
-
     </body>
 </html>
+');
+}
+$_SESSION['logged-in']= "no";
+$_SESSION['username']= "";
+homepage();
+?>
